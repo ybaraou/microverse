@@ -7,6 +7,8 @@ body {
     font-family: 'Poppins', sans-serif;
     color: white;
     font-weight: 100;
+    font-size: 1rem;
+    line-height: 30px;
 }
 
 h1 {
@@ -23,13 +25,20 @@ p {
 
 form {
     background-color: rgba(27, 27, 50, 0.8);
-    padding: 5px 10px;
+    padding: 30px 40px;
+
+    font-family: 'Poppins', sans-serif;
     width: 50%;
+    font-size: 20px;
     margin: auto;
+    display: block;
+    overflow: hidden;
+
 }
 
 label {
     display: block;
+    
     font-size: 18px;
     font-weight: bolder;
 }
@@ -39,14 +48,29 @@ label span {
     font-style: italic;
 }
 
-input, select, textarea {
+input, select {
     display: block;
     width: 100%;
+    margin-bottom: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+textarea{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 3px;
 }
 
-/* input[type='radio'], input[type='checkbox'] {
+input[type='radio'], input[type='checkbox'] {
     display: inline;
-} */
+    width: 20px;
+    height: 20px;
+} 
 
 .inlineInput {
     display: flex;
@@ -58,8 +82,21 @@ input, select, textarea {
 
 button {
     text-align: center;
-    padding: 5px 10px;
+    padding: 10px;
+   
     font-size: 18px;
     display: block;
-    margin: auto;
+   
+    margin-right: 15px;
+    color: aliceblue;
+    width: 100%;
+    background-color: #37af65;
+}
+option{
+    font-size: 18px;
+    padding: 10px;
+}
+.formContent{
+    
+    overflow: hidden;
 }
